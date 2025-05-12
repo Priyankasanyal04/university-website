@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Madrid City University</title>
+<link rel="icon" href="C:\Users\KIIT\Desktop\html lab\project\madrid_city" type="image/jpg">
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+
+
+</style>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\madrid_city.jpg" alt="Madrid City University Logo" class="logo">
+            <h1>Welcome to Madrid City University</h1>
+            <p>Where Dreams Come True </p>
+<!-- Add this in your header -->
+<button id="darkModeToggle" class="dark-toggle">🌙</button>
+
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About </a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="faculty.html">Faculty</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <marquee scrollamount="7">
+            <a href="admissions.html"> Applications for the Fall 2025 semester are now open!</a>
+            
+        </marquee>
+    </header>
+<!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search" />
+            <button>Search</button>
+</div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\madridcity.jpg" alt="Madrid City University Campus" class="hero-image">
+            <div class="hero-overlay">
+                <h2>Shape Your Future at Madrid City University</h2>
+                <p>Explore endless possibilities with our cutting-edge facilities, expert faculty, and diverse programs.</p>
+                <a href="admissions.html" class="cta-button">Apply Now</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <h2>Why Choose Us?</h2>
+            <p>Madrid City University is a beacon of academic excellence, where innovation, research, and personal growth flourish. Established with a clear vision to shape the future of education, we are committed to fostering a dynamic environment where students, faculty, and researchers thrive. 
+
+Our state-of-the-art campus is a hub of creativity, collaboration, and exploration. With world-class facilities, cutting-edge technology, and a diverse student body, it serves as the ideal backdrop for students to expand their knowledge, engage in thought-provoking discussions, and contribute to groundbreaking research. 
+
+The university offers a unique blend of rigorous academic programs and a vibrant campus life that encourages curiosity, critical thinking, and personal development. Whether it’s through our hands-on approach to learning, interactive workshops, or multidisciplinary research projects, we prioritize holistic education that prepares students for success in an ever-evolving global landscape.
+
+At Madrid City University, we believe in empowering students to not only excel in their chosen fields but also to become leaders and innovators who will shape the future. Our commitment to research-driven education ensures that our students are always at the forefront of new ideas, while our emphasis on personal growth nurtures well-rounded individuals ready to take on the challenges of tomorrow.
+
+Join us at Madrid City University, where academic excellence meets limitless opportunities for growth, exploration, and innovation..</p>
+            <a href="about.html" class="cta-button1">Learn More</a>
+        </section>
+
+      <!-- Featured Programs Section -->
+<section class="courses-container">
+    <h2>Our Programs</h2>
+    <div class="courses-row">
+        <!-- Undergraduate Program -->
+        <div class="course-card">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\undergraduate.jpg" alt="Undergraduate">
+            <h3>Undergraduate</h3>
+            <p>Learn the skills to lead in the global market.</p>
+            <button class="details-btn" onclick="viewDetails('undergraduate')">View Details</button>
+        </div>
+        
+        <!-- Masters Program -->
+        <div class="course-card">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\graduate.jpg" alt="Masters">
+            <h3>Masters</h3>
+            <p>Master the latest technologies and programming languages.</p>
+            <button class="details-btn" onclick="viewDetails('masters')">View Details</button>
+        </div>
+        
+        <!-- Doctoral Program -->
+        <div class="course-card">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\doctoral.jpg" alt="Doctoral">
+            <h3>Doctoral</h3>
+            <p>Innovate and design solutions for tomorrow's challenges.</p>
+            <button class="details-btn" onclick="viewDetails('doctoral')">View Details</button>
+        </div>
+        
+        <!-- More Programs -->
+        <div class="course-card">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\certification.jpg" alt="Certification">
+            <h3>Certification</h3>
+            <p>Earn specialized certifications in various fields.</p>
+            <button class="details-btn" onclick="viewDetails('certification')">View Details</button>
+        </div>
+
+        <div class="course-card">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\online.jpg" alt="Online Courses">
+            <h3>Online Courses</h3>
+            <p>Learn at your own pace with our online programs.</p>
+            <button class="details-btn" onclick="viewDetails('online')">View Details</button>
+        </div>
+
+        <div class="course-card">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\executive.jpg" alt="Executive Education">
+            <h3>Executive Education</h3>
+            <p>Take your leadership skills to the next level.</p>
+            <button class="details-btn" onclick="viewDetails('executive')">View Details</button>
+        </div>
+    </div>
+</section>
+
+
+  
+
+    <!-- Testimonials Section Starts Here -->
+<section>
+    <div class="common-sec-intro">
+        <h2>What Our Students Say</h2>
+        <p>Read some experiences shared by our students about their journey at Madrid City University.</p>
+    </div>
+
+    <div class="row">
+
+        <!-- Review 1 -->
+        <div class="review">
+            <div class="review-col">
+                <div class="review-img">
+                    <img src="C:\Users\KIIT\Desktop\html lab\project\user1.jpg" alt="Ellesy Perry" width="60px">
+                </div>
+                <div class="review-para">
+                    <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt vero, esse aspernatur eos et suscipit maiores pariatur explicabo minima, inventore, accusamus repellat facere dolor veniam!"</p>
+                </div>
+            </div>
+            <h4>Ellesy Perry</h4>
+            <p><strong>Course:</strong> Computer Science, Year 2</p>
+            <div class="stars">
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-regular fa-star icon"></i>
+            </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review">
+            <div class="review-col">
+                <div class="review-img">
+                    <img src="C:\Users\KIIT\Desktop\html lab\project\user2.jpg" alt="David Warner" width="60px">
+                </div>
+                <div class="review-para">
+                    <p>"The learning experience here has been amazing. The professors are supportive, and the resources available helped me thrive academically. Highly recommend!"</p>
+                </div>
+            </div>
+            <h4>David Warner</h4>
+            <p><strong>Course:</strong> Mechanical Engineering, Year 3</p>
+            <div class="stars">
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star-half-stroke icon"></i>
+            </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review">
+            <div class="review-col">
+                <div class="review-img">
+                    <img src="C:\Users\KIIT\Desktop\html lab\project\user3.jpg" alt="Sophia Adams" width="60px">
+                </div>
+                <div class="review-para">
+                    <p>"Studying at MCU has not only given me academic knowledge but also boosted my confidence in real-world skills. A great place to shape your future!"</p>
+                </div>
+            </div>
+            <h4>Sophia Adams</h4>
+            <p><strong>Course:</strong> Business Administration, Year 1</p>
+            <div class="stars">
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+            </div>
+        </div>
+
+
+ <!-- Review 3 -->
+        <div class="review">
+            <div class="review-col">
+                <div class="review-img">
+                    <img src="C:\Users\KIIT\Desktop\html lab\project\user4.jpg" alt="Sophia Adams" width="60px">
+                </div>
+                <div class="review-para">
+                    <p>"Studying at MCU has not only given me academic knowledge but also boosted my confidence in real-world skills. A great place to shape your future!"</p>
+                </div>
+            </div>
+            <h4>Sophia Adams</h4>
+            <p><strong>Course:</strong> Business Administration, Year 1</p>
+            <div class="stars">
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+            </div>
+        </div>
+
+
+
+ <!-- Review 3 -->
+        <div class="review">
+            <div class="review-col">
+                <div class="review-img">
+                    <img src="C:\Users\KIIT\Desktop\html lab\project\user6.jpg" alt="Sophia Adams" width="60px">
+                </div>
+                <div class="review-para">
+                    <p>"Studying at MCU has not only given me academic knowledge but also boosted my confidence in real-world skills. A great place to shape your future!"</p>
+                </div>
+            </div>
+            <h4>Sophia Adams</h4>
+            <p><strong>Course:</strong> Business Administration, Year 1</p>
+            <div class="stars">
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+            </div>
+        </div>
+
+        <!-- Review 4 -->
+        <div class="review">
+            <div class="review-col">
+                <div class="review-img">
+                    <img src="C:\Users\KIIT\Desktop\html lab\project\user5.jpg" alt="Aiden Scott" width="60px">
+                </div>
+                <div class="review-para">
+                    <p>"MCU provided me with excellent support during my internship, and I am grateful for the practical knowledge I gained while working on live projects!"</p>
+                </div>
+            </div>
+            <h4>Aiden Scott</h4>
+            <p><strong>Course:</strong> Electrical Engineering, Year 4</p>
+            <div class="stars">
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star icon"></i>
+                <i class="fa-solid fa-star-half-stroke icon"></i>
+                <i class="fa-solid fa-star-half-stroke icon"></i>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Testimonials Section Ends Here -->
+
+
+
+
+
+<!-- Events Section -->
+<section class="events-section">
+    <h2>Upcoming Events</h2>
+    <div class="events-container">
+        <!-- Event Card 1 -->
+        <div class="event-card">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\openhouse.jpg" alt="Open House">
+            <h3>Open House for Prospective Students</h3>
+            <p><strong>Date:</strong> January 20, 2025</p>
+            <p>Join us for an informative session and campus tour designed for prospective students and their families.</p>
+            <a href="events.html#open-house" class="cta-button">More Details</a>
+        </div>
+
+        <!-- Event Card 2 -->
+        <div class="event-card">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\careerfair.jpg" alt="Career Fair">
+            <h3>Career Fair For Education Purpose</h3>
+            <p><strong>Date:</strong> February 10, 2025</p>
+            <p>Reconnect with alumni and fellow students at this networking event designed to foster career connections.</p>
+            <a href="events.html#career-fair" class="cta-button">More Details</a>
+        </div>
+
+        <!-- Event Card 3 -->
+        <div class="event-card">
+            <img src="C:\Users\KIIT\Desktop\html lab\project\alumninetworking.jpg" alt="Alumni Networking">
+            <h3>Alumni Networking Event</h3>
+            <p><strong>Date:</strong> March 5, 2025</p>
+            <p>Reconnect with alumni and fellow students at this networking event designed to foster career connections.</p>
+            <a href="events.html#alumni-networking" class="cta-button">More Details</a>
+        </div>
+    </div>
+
+    <!-- View All Events Link -->
+    <a href="events.html" class="cta-button2">View All Events</a>
+</section>
+<footer>
+        &copy; 2025 Madrid City University. All Rights Reserved.
+        <p>Follow us on:
+            <a href="#" style="color: lightblue; text-decoration: none;">Facebook</a> |
+            <a href="#" style="color: lightblue; text-decoration: none;">Twitter</a> |
+            <a href="#" style="color: lightblue; text-decoration: none;">Instagram</a>
+        </p>
+<p>
+<a href="privacy policy.html">Privacy Policy</a> |
+<a href="terms_and_conditions.html">Terms & Conditions</a> |
+<a href="contact.html">Contact Us</a> |
+<a href="faqs.html">FAQs</a>
+<p>
+    </footer>
+<script>
+    function viewDetails(Admissions) {
+        // Redirects to the corresponding program page
+        window.location.href = Admissions + ".html";
+    }
+
+    
+</script>
+<script>
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+    });
+</script>
+
+
+
+</body>
+</html>
